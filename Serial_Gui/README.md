@@ -1,13 +1,13 @@
 # Serial-GUI
 
-- This code fetches all the available COM ports on the PC and displays the following informations for each port:
-			- Port Name
-			- Location
-			- Description
-			- Manufacturer
-			- Vendor ID
-			- Product ID
-			- Busy Status
+This code fetches all the available COM ports on the PC and displays the following informations for each port:
+- Port Name
+- Location
+- Description
+- Manufacturer
+- Vendor ID
+- Product ID
+- Busy Status
 
 
 ### COM Port GUI
