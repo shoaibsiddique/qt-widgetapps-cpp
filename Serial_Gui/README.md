@@ -8,3 +8,5 @@
 			5. Vendor ID
 			6. Product ID
 			7. Busy Status
+
+![Alt text](C:\qt-widgetapps\Serial_Gui\gui-image)
