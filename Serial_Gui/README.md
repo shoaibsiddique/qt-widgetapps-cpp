@@ -9,4 +9,10 @@
 			6. Product ID
 			7. Busy Status
 
-![Alt text](C:\qt-widgetapps\Serial_Gui\gui-image)
+
+### COM Port GUI
+<img src="https://github.com/shoaibsiddique/qt-widgetapps-cpp/blob/main/Serial_Gui/snapshots/serial-gui.PNG" style="height=100% width=100%"> 	
+			
+### COM Port Info Drop Down Menu
+<img src="https://github.com/shoaibsiddique/qt-widgetapps-cpp/blob/main/Serial_Gui/snapshots/COMPORTS-DROPDOWN.PNG?raw=true" style="height=100% width=100%"> 
+
