@@ -20,6 +20,26 @@ MainWindow::MainWindow(QWidget *parent) :
     arduino_is_available = false;
     arduino_port_name = "";
 
+
+    foreach(const QSerialPortInfo &serialPortInfo, QSerialPortInfo::availablePorts()){
+
+
+
+        if(serialPortInfo.hasVendorIdentifier() ){
+            if(serialPortInfo.vendorIdentifier() == ch340_vendor_id || serialPortInfo.vendorIdentifier() == ftdi_vendor_id ||
+                  serialPortInfo.vendorIdentifier() == arduino_vendorID  ){
+                    arduino_port_name = serialPortInfo.portName();
+                    arduino_is_available = true;
+                    ui->comInfoText->append("Arduino Available on: " + arduino_port_name);
+                    qDebug() << "Arduino Available on: " + arduino_port_name;
+
+
+            }
+        }
+    }
+
+
+
 }
 
 MainWindow::~MainWindow()
