@@ -18,3 +18,6 @@ And then in the comport combo box automatically deetects and places the comport 
 
 ### No Arduino
 <img src="https://github.com/shoaibsiddique/qt-widgetapps-cpp/blob/main/Arduino-comport/snapshots/ArduinoNotDetected.PNG" style="height=100% width=100%"> 
+
+### Arduino Port Autodetect
+<img src="https://github.com/shoaibsiddique/qt-widgetapps-cpp/blob/main/Arduino-comport/snapshots/autoDetectArduinoports.PNG" style="height=100% width=100%"> 
