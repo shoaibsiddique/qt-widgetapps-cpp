@@ -34,8 +34,8 @@ void MainWindow::on_comportsComboBox_currentIndexChanged(const QString &arg1)
     ui->comInfoText->append("Location:" +  selectedSerial.systemLocation());
     ui->comInfoText->append("Description:" +  selectedSerial.description());
     ui->comInfoText->append("Manufacturer:" +  selectedSerial.manufacturer());
-    ui->comInfoText->append("Vendor ID:" +  selectedSerial.vendorIdentifier());
-    ui->comInfoText->append("Product ID:" +  selectedSerial.productIdentifier());
+    ui->comInfoText->append("Vendor ID:" +  QString::number(selectedSerial.vendorIdentifier()));
+    ui->comInfoText->append("Product ID:" +  QString::number(selectedSerial.productIdentifier()));
     ui->comInfoText->append("Busy Status" + QString::number(selectedSerial.isBusy()));
 
 }
